@@ -1,5 +1,8 @@
+# 2D düzlemde rastgele (x,y) noktaları
 points = [(3,6),(5,6),(5,8),(8,9),(10,5),(9,7)]
 
+# Her nokta arası öklidi hesaplar ve distances adlı listeye atar.
+# Daha sonra distances adlı listedeki en küçük elemanı bulur ve bunu döndürür.
 def euclideanDistance(points):
     distances=[]
     for i in range(len(points)-1):
